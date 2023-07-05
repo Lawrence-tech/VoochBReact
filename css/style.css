@@ -113,3 +113,19 @@ h2 {
   width: 15%;
   margin: 20px 20px 50px;
 }
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotate {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding:7% 15%;
+  color: #fff;
+}
